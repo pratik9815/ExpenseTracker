@@ -1,0 +1,32 @@
+.range-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="range"] {
+    writing-mode: bt-lr; /* Displays the input vertically */
+    appearance: slider-vertical; /* Adjusts appearance for vertical display, use vendor prefixes for browser compatibility */
+    width: 20px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+  }
+  
+input{
+    width: 15vw;
+}
+
+
+.form-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container form{
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+}
+
+.form-container label{
+  display: block;
+}
